@@ -5,7 +5,7 @@ date: 2009/05/15
 I've been noticing for a while that in a conversation, I sometimes tend to stop my thoughts mid-sentence, leaving the listener wondering about the points I'm trying to make. These interruptions of speech are caused by nothing but a lack of vocabulary---stopping to search for an appropriate word, but effectively ending the conversation instead.
 
 So here I go. I'm starting a blog. To improve my communication skills.
-<!--break-->
+
 As far as I can tell, most personal blogs revolve around the blogger's life, which I find creepy and uninteresting. I won't blog about my life. Instead, I will put down some notes about projects I'm currently working on. I will mention things that I've encountered and found interesting. I will sometimes rant about technologies that are hyped too much and other people's opinions about those technologies. And I will rant about those people.
 
 I've set myself a goal to publish at least one article a week. Let's see how it turns out.

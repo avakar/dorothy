@@ -8,7 +8,7 @@ That changed today when I opened bitbucket and created a new repository, hoping 
 
   [1]: http://bitbucket.org
   [2]: http://bitbucket.org/avakar/hgdeps
-<!--break-->
+~
 The wiki engine on bitbucket uses [Creole][3] markup. Since I really hate how every wiki engine uses a different markup, I was quite pleased by the attempt at standardization, even if somewhat informal. My initial enthusiasm, however, quickly disappeared when I saw the results that the labor yielded.
 
 *Who in their right state of mind would use a double slash to indicate emphasis?* Actually, the so-called specification furthers its shameful act by making the double slash result in italics, thus dealing a hurtful blow to all of us that firmly believe in the semantic web. Please people, use [Markdown][4].

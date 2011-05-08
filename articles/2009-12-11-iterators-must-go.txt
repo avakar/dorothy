@@ -8,7 +8,7 @@ I finally read it today. You see, I was implementing an incidence graph (as defi
 
   [1]: http://www.boostcon.com/site-media/var/sphene/sphwiki/attachment/2009/05/08/iterators-must-go.pdf
   [2]: http://www.boost.org/doc/libs/release/libs/graph/
-<!--break-->
+
 It was quite cumbersome. The amount of state I had to keep inside the iterator was non-trivial, which, while certainly unavoidable, gave me a headache when I realized
 
  1. that I'd have to keep the same state twice, once for each bracket of the sequence, and

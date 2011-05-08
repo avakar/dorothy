@@ -3,7 +3,7 @@ author: Martin Vejnár
 date: 2010/05/20
 
 During the last two semesters, I've been working as a member of the laboratory of systems biology on methods for estimation of parameters of biological systems. A paper is currently being written, which will hopefully appear on International Workshop on High Performance Computational Systems Biology (HiBi 2010). Though there still is work to be done, I'd like to summarize the results here in hopes that this text may also serve as a final report for the class "PA183 -- Project in Systems Biology".
-<!--break-->
+
 ## Introduction
 
 The behavior of biological systems can be described in a multitude of ways. One of the common methods -- one that the rest of this article will assume -- is the explicit description by a system of ordinary differential equations.
