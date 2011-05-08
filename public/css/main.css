@@ -1,9 +1,6 @@
-html { margin: 20px }
 body {
   margin: 0 auto;
   font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 30px;
   padding: 15px;
   max-width: 720px;
 
@@ -16,11 +13,11 @@ header, footer, section, article {
 #by {
 	font-style: italic;
   margin-right: 5px;
-	font-size: 28px;
+	font-size: x-large;
 }
 #caption {
 	position: absolute;
-	font-size: 24px;
+	font-size: large;
 	margin: -135px 0 0 70px;
 }
 #path {
@@ -28,8 +25,11 @@ header, footer, section, article {
 }
 .date {
   font-style: italic;
-  float: right;
-  line-height: 43px;
+/*  float: right;*/
+  font-size: small;
+  color: #888;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
   margin-right: 30px;
 }
 a {
@@ -42,11 +42,8 @@ h1 a {
 a:hover {
   text-decoration: underline;
 }
-body > header > h1 {
-	border-left: 30px solid black;
-	padding-left: 30px;
-  font-size: 201px;
-  margin: 100px 0 15px 0;
+header h1 {
+  font-size: x-large;
   font-weight: normal;
 }
 .post header {
@@ -105,6 +102,6 @@ body > footer {
   text-align: left;
   margin-left: 10px;
 	font-style: italic;
-  font-size: 18px;
+  font-size: small;
   color: #888;
 }
