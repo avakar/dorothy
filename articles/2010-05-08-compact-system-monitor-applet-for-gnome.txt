@@ -4,11 +4,11 @@ date: 2010/05/08
 
 I've written a super-simple panel applet for Gnome which displays current CPU load and memory consumption. The applet is supposed to be a space-conserving replacement of the default (and ugly) system monitor applet shipped with Ubuntu. Take a look at the picture of the new applet in action.
 
-[img_assist|nid=28|title=Compact System Monitor Applet for Gnome|desc=|link=none|align=center|width=283|height=24]
+![Compact System Monitor Appliet for Gnome](/images/compact-sysmon-screenshot-highlight.png)
 
 Now compare the above applet with the default one.
 
-[img_assist|nid=29|title=Default System Monitor Applet for Gnome|desc=|link=none|align=center|width=368|height=24]
+![Default System Monitor Appliet for Gnome](/images/default-sysmon-screenshot-highlight.png)
 
 I've highlighted both applets so that they're easier to spot. Notice the compactness of the new applet: it takes less than the third of the space the old applet took, while it still displays all the information I need: the CPU load per processor (the outer circle) and memory consumption (the inner one). There are actually two arcs in the inner circle, though unfortunately the separation space is only barely visible. The bars show the amount of physical memory used by applications and the physical memory dedicated to the cache.
 
