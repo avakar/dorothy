@@ -1,6 +1,7 @@
 title: The Remnants of an Old Friend
 author: Martin Vejnár
 date: 2010/01/27
+slug: remnants-old-friend
 
 Few days ago a friend of mine, while tidying up our workroom, found remnants of a robot -- Aya -- which we built about 5 years ago for the [Eurobot challenge][1]. Ah, the memories. Back then we used Microchip's PIC processors, specifically we were fond of PIC16F627A. It was very cheap and the aforementioned friend had had some experience with them.
 

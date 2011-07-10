@@ -1,6 +1,7 @@
 title: Extraction of Image Characteristics on GPU
 author: Martin Vejnár
 date: 2009/05/18
+slug: extraction-image-characteristics-gpu
 
 While walking from school today, I ran into my bachelor's thesis' opponent (opponent is just the name of one of the members of thesis committee here in Czech Republic) and we chatted for a while. He told me that there is an interesting problem for me to tackle for my master's thesis.
 <!--break-->

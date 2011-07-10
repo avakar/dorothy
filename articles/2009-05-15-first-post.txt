@@ -1,6 +1,7 @@
 title: The First Post
 author: Martin Vejnár
 date: 2009/05/15
+slug: first-post
 
 I've been noticing for a while that in a conversation, I sometimes tend to stop my thoughts mid-sentence, leaving the listener wondering about the points I'm trying to make. These interruptions of speech are caused by nothing but a lack of vocabulary---stopping to search for an appropriate word, but effectively ending the conversation instead.
 
