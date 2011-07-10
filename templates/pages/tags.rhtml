@@ -15,7 +15,7 @@ end
 %>
 
 <% if route.length == 2 %>
-<h1><%= route[1] %></h1>
+<header><h1><%= route[1] %></h1></header>
 
 <ul>
 <% tags[route[1]].each do |article| %>
@@ -25,7 +25,7 @@ end
 
 <% else %>
 
-<h1>Tags</h1>
+<header><h1>Tags</h1></header>
 
 <% tags.each_key do |key| %>
 <h2><%= key %></h2>

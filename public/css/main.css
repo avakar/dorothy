@@ -46,9 +46,6 @@ header h1 {
   font-size: x-large;
   font-weight: normal;
 }
-.post header {
-	margin-bottom: 10px;
-}
 .post .body p:first-child {
 	margin-top: 0;
 }
@@ -74,15 +71,13 @@ header h1 {
   text-decoration: none;
 }
 .more a:hover { text-decoration: underline }
-body > header {
+header {
 	display: block;
-	padding-top: 30px;
-	line-height: 180px;
-	margin-bottom: 20px;
+	margin-bottom: 1em;
 }
 h1, h2, h3, h4 {
-  display: inline;
   margin: 0;
+  margin-top: 1em;
   font-weight: 600;
 }
 code {
@@ -101,4 +96,12 @@ body > footer {
 	font-style: italic;
   font-size: small;
   color: #888;
+}
+
+.tags {
+  font-size: small;
+}
+
+.tags a {
+  color: black;
 }
