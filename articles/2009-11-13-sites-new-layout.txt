@@ -2,6 +2,7 @@ title: The Site's New Layout
 author: Martin Vejnár
 date: 2009/11/13
 slug: sites-new-layout
+tags: meta
 
 I've had a headache the whole day today. I couldn't really concentrate on programming, so after I got home from school I've decided to kill some time before the dose of ibuprofen would kick in, and post an article here. Unfortunately, when I looked at the state the site was in, I've decided to fix it instead. I've spent the rest of the afternoon relaying and reconfiguring the site.
 

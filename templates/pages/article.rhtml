@@ -2,6 +2,9 @@
   <header>
     <h1><%= title %></h1>
     <p class="date"><%= date %></p>
+    <% if has_key?(:tags) %>
+       <p class="tags"><%= (tags.map do |tag| tag end).join(' | ') %></p>
+    <% end %>
   </header>
 
   <section class="content">

@@ -2,6 +2,7 @@ title: The Hardships of C++ GUI Development
 author: Martin Vejnár
 date: 2010/05/19
 slug: hardships-c-gui-development
+tags: [widget toolkit, gui development, gui, ggui, c++]
 
 This post was intended to be about the development of GUI applications with C++, but if you read forward, you'll soon realize that it became more of rant, a monument to my frustration with existing C++ GUI toolkits (sometimes referred to as widget toolkits. Applying a bit of a self-censorship, I've managed to tune down the tone of the article a bit, though I had to remove a lot of "craps" from the text in the process.
 

@@ -1,6 +1,7 @@
 title: Minix reloaded
 author: Martin Vejnár
 date: 2009/12/24
+tags: [minix]
 
 We had a class reunion last week and I had a chance to talk to one of my former classmates, who is currently studying computer science in Prague. What's interesting is that he somehow got involved with [Minix][1] project.
 

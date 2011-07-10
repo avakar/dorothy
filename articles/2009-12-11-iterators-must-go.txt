@@ -1,6 +1,7 @@
 title: Iterators Must Go
 author: Martin Vejnár
 date: 2009/12/11
+tags: [stl, c++]
 
 This is the catchphrase associated with the [presentation][1] given by Andrei Alexandrescu during boostcon 2009. I heard about that blasphemy a while ago, but I had neither the  time, nor the interest to read it back then.
 

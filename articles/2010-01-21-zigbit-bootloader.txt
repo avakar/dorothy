@@ -1,6 +1,7 @@
 title: ZigBit Bootloader
 author: Martin Vejnár
 date: 2010/01/21
+tags: [zigbit, robotics]
 
 I was playing with Atmel's ZigBit ATZB-24-A2 over the last few days and wrote a command-line utility that runs on both Windows and Linux and can be used to flash programs into these modules (assuming that they have the original bootloader installed). Atmel distributes their own bootloader client as part of the BitCloud SDK, but the command-line version didn't work for me at all and the GUI version was very unreliable.
 

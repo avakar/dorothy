@@ -1,6 +1,7 @@
 title: Creole Wiki Markup
 author: Martin Vejnár
 date: 2010/06/26
+tags: [creole, wiki markup, bitbucket]
 
 I've been using [bitbucket][1] for some time now to host my [hgdeps][2] Mercurial extension. I've never used any of the many features that bitbucket offers, including issue tracking and wiki hosting.
 

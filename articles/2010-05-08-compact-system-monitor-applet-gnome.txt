@@ -2,6 +2,7 @@ title: Compact System Monitor Applet for Gnome
 author: Martin Vejnár
 date: 2010/05/08
 slug: compact-system-monitor-applet-gnome
+tags: [system monitor, panel applet, gnome]
 
 I've written a super-simple panel applet for Gnome which displays current CPU load and memory consumption. The applet is supposed to be a space-conserving replacement of the default (and ugly) system monitor applet shipped with Ubuntu. Take a look at the picture of the new applet in action.
 

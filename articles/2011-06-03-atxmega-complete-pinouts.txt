@@ -1,6 +1,7 @@
 title: ATxmega Complete Pinouts
 author: Martin Vejnár
 date: 2011/06/03
+tags: [robotics]
 
 The ATxmega devices from Atmel do not have a complete pinout drawn in their datasheets. So here it is, at least for A4 and D4 devices.
 
