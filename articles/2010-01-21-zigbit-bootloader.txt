@@ -52,10 +52,10 @@ Otherwise you will have to build from sources. You will need a C++ compiler and 
   [2]: http://www.boost.org/
 
 ##Releases
-* v0.2: [src](http://ratatanek.cz/hg/zigbit_bootloader/archive/8808a7b61dea.tar.gz), [win](http://ratatanek.cz/files/2010-01-21-zigbit-bootloader/zigbit_bootloader-0.2.zip), [repo](http://ratatanek.cz/hg/zigbit_bootloader/rev/8808a7b61dea)
- * No longer sends zero-padded frames.
+ * v0.2: [src](/hg/zigbit_bootloader/archive/8808a7b61dea.tar.gz), [win](/files/2010-01-21-zigbit-bootloader/zigbit_bootloader-0.2.zip), [repo](/hg/zigbit_bootloader/rev/8808a7b61dea)
+   * No longer sends zero-padded frames.
 
-* v0.1: [src](http://ratatanek.cz/hg/zigbit_bootloader/archive/de1e41b3d824.tar.gz), [win](http://ratatanek.cz/files/2010-01-21-zigbit-bootloader/zigbit_bootloader-0.1.zip), [repo](http://ratatanek.cz/hg/zigbit_bootloader/rev/de1e41b3d824)
- * Initial release.
- * Compilable on both Windows and Linux
- * Doesn't check the integrity of the source .srec file.
+ * v0.1: [src](/hg/zigbit_bootloader/archive/de1e41b3d824.tar.gz), [win](/files/2010-01-21-zigbit-bootloader/zigbit_bootloader-0.1.zip), [repo](/hg/zigbit_bootloader/rev/de1e41b3d824)
+   * Initial release.
+   * Compilable on both Windows and Linux
+   * Doesn't check the integrity of the source .srec file.
