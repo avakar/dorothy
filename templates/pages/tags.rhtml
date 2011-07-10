@@ -1,0 +1,39 @@
+<%
+tags = {}
+@articles.each do |article|
+  article.load
+  if !article.has_key?(:tags)
+    next
+  end
+  article.tags.each do |tag|
+    if !tags.has_key?(tag)
+      tags[tag] = []
+    end
+    tags[tag] << article
+  end
+end
+%>
+
+<% if route.length == 2 %>
+<h1><%= route[1] %></h1>
+
+<ul>
+<% tags[route[1]].each do |article| %>
+  <li><a href="<%= article.path %>"><%= article.title %></a></li>
+<% end %>
+</ul>
+
+<% else %>
+
+<h1>Tags</h1>
+
+<% tags.each_key do |key| %>
+<h2><%= key %></h2>
+<ul>
+<% tags[key].each do |article| %>
+  <li><a href="<%= article.path %>"><%= article.title %></a></li>
+<% end %>
+</ul>
+<% end %>
+
+<% end %>

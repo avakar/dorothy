@@ -3,7 +3,7 @@
     <h1><%= title %></h1>
     <p class="date"><%= date %></p>
     <% if has_key?(:tags) %>
-       <p class="tags"><%= (tags.map do |tag| tag end).join(' | ') %></p>
+       <p class="tags"><%= (tags.map do |tag| "<a href=\"/tags/#{tag}\">#{tag}</a>" end).join(' | ') %></p>
     <% end %>
   </header>
 
