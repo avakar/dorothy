@@ -1,0 +1,53 @@
+title: Considerations for Short Distance UART Communication, Part 2
+author: Martin Vejnár
+date: 2011/09/20
+slug: considerations-for-short-distance-uart-communication-part-2
+tags: [robotics]
+
+In the [previous installment][1] of this series, I revealed my
+poweful belief in UART, for its simplicity and widespread use.
+Let me now talk a little bit about the data that we typically transfer
+across UART connection, how that affected the design of the protocol
+we currently use, and finally, let me reveal the protocol itself.
+
+== Requirements ==
+
+First, we should look at some of our past designs. As far as robots go,
+we very much realized that the best control interface (for a human)
+is that employed by RC model transmitters---a pair of two-axis sticks,
+each controlled by one of the hands. We rigged our transmitters
+to get the position of axes in digital form and dump these positions
+in a raw form to the robot. The UART data from the transmitter are
+bridged over the air to the robot via Bluetooth (we use ConnectBlue's
+[OEMSPA310][2] UART-to-Bluetooth module).
+
+The data are generated in short bursts (16-bits per axis gives 8 bytes, but there
+usually are additional axes/control switches, so the length of the
+packet can get a little higher) that are transmitted repeatedly
+every say 20 milliseconds. Now, the robot can be powered up anytime before
+or after the transmitter is switched on, which makes it necessary to
+allow to protocol to synchronize.
+
+There are basically two ways to do this. First, one can use timing
+for synchronization (this is what RC transmitters used to do before they
+all became 2.4GHz capable). Basically, you leave a little time between
+the packets (not necessarily between *every* two packets, although
+for RC control, we want the packets to be evenly spaced so that
+the control feels predictible), which the receiver can recognize
+and synchronize to.
+
+The other method involves sending a synchronization sequence before every
+packet. A lot of protocols do this, since an addition to signalling
+start-of-packet condition, it also provides for [clock recovery][3] if
+the synchronization sequence is cleverly chosen (it is usually
+a sequence of alternating bits).
+Most wireless protocols do this (ZigBee, Bluetooth, Wifi, ...);
+they generally need to phase-lock to the transmission and the synchronization
+sequence gives them the opportunity. USB and Ethernet do this too.
+You usually don't do clock recovery on UART (not that it's impossible).
+
+Let's backtrack a little. 
+
+  [1]: http://ratatanek.cz/blog/considerations-for-short-distance-uart-communication-part-1/
+  [2]: http://www.connectblue.com/support/product-support/bluetooth/oemspa310/
+  [3]: http://en.wikipedia.org/wiki/Clock_recovery
