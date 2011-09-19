@@ -5,20 +5,20 @@ slug: considerations-for-short-distance-uart-communication-part-1
 tags: [robotics]
 
 Whenever a system consists of multiple processors, the typical question
-that arises very soon into the design process is that of their mutual
+that arises very early into the design process is that of their mutual
 communication. I've been programming chips to communicate for years now
-and went though a few communication protocols. Lately, I've been doing
+and went though quite a few communication protocols. Lately, I've been doing
 a lot of thinking on communication protocol design and I'd like to share
 my thoughts.
 
 This is the first episode of what hopefully will become
 a series of articles, in which I explain the resoning behind the protocols
-that my friends and I use for communication within a robot (or any other
-kind of device, really), the problems that we encountered on the way,
-how we solved them or rather how I believe we should solve them.
+that my friends and I use for communication between processors within
+a single device. I'll discuss the problems that we encountered on the way,
+and how we solved them (or rather how I believe we should solve them).
 
 I will make a big leap right away and state that robotics enthusiasts
-processors into their robots not because they need a lot of computing
+put processors into their robots not because they need a lot of computing
 power, but rather to control the robot's peripherals (e.g. motors).
 After all, if they needed to compute, they would just embed
 a notebook into the robot. Who would want to to port their neural
@@ -27,7 +27,7 @@ networks to an embedded ARM?
 I personally used to work with PICs and switched to AVRs shortly after.
 These are 8-bit microcontrollers (MCUs) that require very few external
 components to run, they are relatively cheap, and mostly they get the
-job done effectively. The are, however, somewhat limited when it comes to
+job done effectively. They are, however, somewhat limited when it comes to
 speed (typically around 10 to 20 MIPS) and memory (as low as 512 bytes).
 The strength of these units is in the hardware peripherals they
 usually come with: PWM channels, A/D converters, and---you guessed
@@ -40,7 +40,7 @@ this interface are plenty.
  * Almost every MCU has a hardware UART interface and the interface
    is extremely simple to control from software (unlike I2C or,
    perish the thought, USB).
- * Multiple UARTs can typically be found on an MCU (XMEGA A has five),
+ * Multiple UARTs can typically be found on an MCU (AVR XMEGA A has five),
    unlike other types of interfaces (save maybe for SPI) of which
    there usually is one, if any.
  * It can be connected to a PC via the RS232 port with only
