@@ -16,6 +16,7 @@ a [micro USB recepticle][4].
 <img style="display: block; margin-left: auto; margin-right: auto" src="/images/IMG_20120409_111541.jpg" alt="atxmega32a4u demo board" width="320" height="240" />
 
 A few interesting things popped out.
+
  * From the programming perspective, the chip identifies itself with
  the same signature as it's cousin chip, atxmega32a4; in fact,
  all atxmega32a chips identify themselves the same.
