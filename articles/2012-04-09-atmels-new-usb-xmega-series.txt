@@ -13,7 +13,9 @@ Anyway, I have a working board now, which I can easily program with
 my [Shupito programmer][3] (shameless plug). I also got to try out
 a [micro USB recepticle][4].
 
+<div style="display: block; margin-left: auto; margin-right: auto">
 <img src="/images/IMG_20120409_111541.jpg" alt="atxmega32a4u demo board" width="320" height="240" />
+</div>
 
 A few interesting things popped out.
  * From the programming perspective, the chip identifies itself with
