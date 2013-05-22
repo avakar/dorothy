@@ -6,6 +6,7 @@
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
     <meta name="viewport" content="width=device-width">
+    <% if has_key?(:mathjax) %>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         extensions: ["tex2jax.js"],
@@ -19,6 +20,7 @@
       });
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <% end %>
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -38,9 +40,6 @@
     <section>
       <%= yield %> 
     </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
-    </footer>
   </body>
 </html>
 
