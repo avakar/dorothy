@@ -9,6 +9,11 @@ Although I've been waiting for the chip to become available for months,
 I've only gotten to etch [a demo board][2] for it on Friday night
 (what's one to do on Friday night after all).
 
+  [1]: http://www.atmel.com/devices/atxmega32a4u.aspx
+  [2]: https://technika.junior.cz/trac/browser/demo_boards
+
+~
+
 Anyway, I have a working board now, which I can easily program with
 my [Shupito programmer][3] (shameless plug). I also got to try out
 a [micro USB recepticle][4].
@@ -58,8 +63,6 @@ but there are lots of details that need to be taken care of and I'm not sure
 how much time it would take (also, it's GPL and Qt, neighter of which
 particularly motivates me).
 
-  [1]: http://www.atmel.com/devices/atxmega32a4u.aspx
-  [2]: https://technika.junior.cz/trac/browser/demo_boards
   [3]: http://shupito.net
   [4]: http://cz.farnell.com/jsp/search/productdetail.jsp?SKU=1568026
   [5]: http://www.atmel.com/Images/doc8429.pdf
